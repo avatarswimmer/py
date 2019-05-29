@@ -58,3 +58,41 @@ Assign variable:
 		total_hr : 2.167
 							Quiz Trick: 
 									Type for x =2/2 should be float not int 
+									
+Day2 - 05.29.2019 
+	 
+	String Cont'd
+		Sting is a sequence of characters. 
+		Name= " Michael Jackson" 
+		M-0 i-1 ….. N is 14 (remember starts from 0 )
+		
+		Negative : n --1, then M is -15 (M is 0, follow M, backwards n is -1)
+		
+		Len ("Michael Jackson")
+		 
+		Concatenate strings 
+		
+			Name="Michael Jackson" 
+			Statement= Name + " is the best"
+			Statement= " M J is the best" 
+		3*"Michael Jackson" " Michael Jackson Michael Jackson Michael Jackson" 
+		
+	Name[0]=j, you can't change value [0], but you can create new ones 
+	
+	.\ escape sequence
+	\n - new line 
+	
+	Print("Michael Jackson" \n is the best" )
+	Output : 
+			Michael Jackson 
+			Is the best
+					\t is -tab
+					\\  backslash
+					\' single quote
+					\\" double quote
+					r""
+		Method 
+		Find string 
+			Name.find ('el'):5
+			Name.find ('jack'):8
+
