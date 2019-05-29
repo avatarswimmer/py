@@ -1,0 +1,60 @@
+Day 1 (Week 1-05.27.2019 )
+
+Int -11
+Float - 0.1234
+Str - characters " Hello world" 
+
+Convert type 
+	Float(2):2.0
+	Int(1.12):1
+	Int(1.1):1- you lose some value
+	Int('1'):1
+	Int('A'): error
+	Str(1):"1" - convert string to string 
+	Str(4.5):'4.5' - convert float to string  
+	
+	Int(True):bool
+	Int(False):bool 
+	Bool(1):True
+	Book(0):False
+	
+		Check : python.org to check the other types for python. 
+				Quiz Trick: 
+							Type(int(12.3))- int 
+							Int(false)-0 
+
+Expression and variables : 
+
+	25/5 = 5
+	25/6 = 4.1667  auto result a float
+	
+	 // Rounded number :         25//5 = 5
+					25//6=4
+	
+	Check the labs for more examples  40+25//5=45 
+					（5*2）+10=20
+					
+Assign variable: 
+	My_variable=1
+	My_variable:1
+	My_variable=10
+	My_variable:10 (the old value you assigned is not impt.)
+	
+	Store result : x = 40+50+30+20+10 =150 
+			x=150 now is stored
+			
+	y=x/40 (you can use x now)
+	y: 3.75 (now y has a value of 3.75)
+	x=x/40
+	x:3.75 (old value is not impt anymore)
+	Type(x):float (you can use type commend for variable as well)
+	
+	Because the two steps changed the value of x
+	if x is assigned to its self. It's helpful to replace the value of x with its current value
+	
+	-Use meaningful name to name your variable, so you don’t have to track what they mean. 
+		total_min = 40+40+50  (anything modify here will change the total_hr)
+		total_hr = total_min / 60 
+		total_hr : 2.167
+							Quiz Trick: 
+									Type for x =2/2 should be float not int 
