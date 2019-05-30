@@ -95,4 +95,52 @@ Day2 - 05.29.2019
 		Find string 
 			Name.find ('el'):5
 			Name.find ('jack'):8
+		Print (var[::2])--0..4…6..  Skip the first two 
+		
+		Skills network lab edition jupiter: 
+	
+		Execute Jupiter : "Run the selected cell and advance"
+			'1'+'2'---> '12'
+		var = '01234567'
+		Print(var[::2]---> 0246
+		myvar = 'hello'
+		myvar.upper()
+		
+			'HELLO'
+	
+		Name="ABC" Name.find("B") - 1 not 2, start from 0 
+	
+		str(1)+str(1)--->
+		'11'
+		"123".replace("12", "ab")
+		'ab3'
+	
+Tuples and List 
+		Tuples "Rating" - written as comma-separated elements within parentheses. 
+		Ratings=(10,9,6,5,10,8,9,6,2)
+		
+		Tuple1= ('disco',10,1.2)- str, int, float all can be in one tuple 
+		Element's index in the tuple --In python we can use negative index
+		
+		-3	0	'disco'
+		-2	1	10
+		-1	2	1.2
+			To access the tuple : tuple1[0]: -return 'disco'
+						   tuple1[1]:- 10
+					             tuple[2]:- 1.2 
+		
+		Visit first three tuple- tuple2[0:3]---this is 0 to 3 elements 
+			Eg: '12345' to get tuple2[0:3] you get 123 
+		
+			Choose element = index +1
+		'disco'	10	1.2
+		0	1	2
+		Tuple2[0:3]- means to pick the first 3 element		
+		
+		Len - 
+		len returns the number of items of a tuple
+		
+		 A=(1,2,3,4,5)--> len(A)--5 
+		
 
+Tuples: immutable ( unchangeable)
